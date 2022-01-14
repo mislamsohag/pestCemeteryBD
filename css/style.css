@@ -1,0 +1,43 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+/* Common CSS End */
+
+/* Navigation css Part Start */
+.nav-ber {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;   
+}
+.logo a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+.mainManu>ul {
+    display: flex;    
+}
+.mainManu ul li {
+    list-style: none;   
+    padding:10px ;
+}
+.mainManu ul li:hover {
+    background-color: #efefef;    
+}
+.mainManu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+/* Navigation css Part Start */
