@@ -148,9 +148,9 @@ font-family: 'Source Sans Pro', sans-serif;
     color: #fff;    
 }
 .headerImg {
-    background-image: url(../images/Circle\ design.svg);
+    /* background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     overflow: hidden;
     
