@@ -65,19 +65,23 @@ font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: #fff;    
 }
-/* .headerImg {
+.headerImg {
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 /* Hero Part CSS End */
 
 /* Product Part Start */
+.heading {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
 .products {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    
+    grid-template-columns: repeat(3, 1fr);    
 }
 .product {
     padding: 10px;
@@ -113,5 +117,14 @@ font-family: 'Source Sans Pro', sans-serif;
 .product:hover .p-stock {
     color: lightgreen;
     font-weight: 700;
+}
+.seeMore {
+    margin: 30px 0;
+    text-align: right;
+}
+.seeMore a {
+    color: #E22E6D ;
+    text-decoration: none;
+    
 }
 /* Product Part End */
