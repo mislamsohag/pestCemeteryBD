@@ -108,6 +108,11 @@ font-family: 'Source Sans Pro', sans-serif;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);    
 }
+@media (max-width:600px) {
+    .products {
+        grid-template-columns: 1fr;
+    }    
+}
 .product {
     padding: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -164,6 +169,19 @@ font-family: 'Source Sans Pro', sans-serif;
     grid-gap: 100px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;    
+}
+@media (max-width:600px) {
+    .featurePart {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+    }
+    .featureCont {
+        order: 1;
+    }
+    .featureVideo {
+        order: 2;
+    }
 }
 
 /* Featurs Part Start */
