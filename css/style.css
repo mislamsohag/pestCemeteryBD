@@ -27,7 +27,7 @@ font-family: 'Source Sans Pro', sans-serif;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-top: 10px;
+        padding-top: 5px;
         background-color: #b9b4f8;
     }         
 }
@@ -36,7 +36,7 @@ font-family: 'Source Sans Pro', sans-serif;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-top: 10px;
+        padding-top: 50px;
         background-color: #b9b4f8;
     }         
 }
@@ -152,6 +152,10 @@ font-family: 'Source Sans Pro', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* .headerPart:hover .headerImg {
+    zoom: 110%;
+    overflow: hidden;
+} */
 /* Hero Part CSS End */
 
 /* Online Market Part Start */
