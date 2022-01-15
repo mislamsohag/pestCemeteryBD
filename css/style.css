@@ -128,3 +128,22 @@ font-family: 'Source Sans Pro', sans-serif;
     
 }
 /* Product Part End */
+/* Footer Part Start */
+.footerPart {
+    background-color: #0A0826;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+.footerPart h3 {    
+    font-size: 25px;    
+}
+.footerPart p {
+    margin: 10px 0;
+}
+.social-link a {
+    text-decoration: none;
+    color: #fff;
+    margin:0 10px;
+}
+/* Footer Part End */
