@@ -151,11 +151,14 @@ font-family: 'Source Sans Pro', sans-serif;
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-/* .headerPart:hover .headerImg {
-    zoom: 110%;
+    width: 100%;
     overflow: hidden;
-} */
+    
+}
+.headerPart:hover .headerImg {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
 /* Hero Part CSS End */
 
 /* Online Market Part Start */
