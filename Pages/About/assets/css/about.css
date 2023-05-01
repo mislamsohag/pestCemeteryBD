@@ -1,3 +1,5 @@
+
+/* Common CSS Part Start */
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +10,18 @@ ul,li {
 a {
     text-decoration: none;
 }
+
+.textAlign {
+    text-align: justify;
+    /* margin-left: 20px;
+    margin-top: 20px; */
+}
+
+/* Common CSS PartEnd  */
+
 .header_part {
     background: #28A8EA;
-    padding: 10px 0;
-    
+    padding: 10px 0;    
 }
 
 .social_icon {
@@ -55,8 +65,10 @@ a {
     justify-content: end;
     align-items: center;
 }
-.hire_btn {
+.hire_btn {    
+    display: flex;
     text-align: center;
+    align-items: center;
     height: 30px;
     width: 100px;
     background-color: #28A8EA;
@@ -105,29 +117,29 @@ a {
     font-weight: bold;
     color: #010101;
 }
-.about_con p {
-    text-align: justify;
-    /* margin-left: 20px;
-    margin-top: 20px; */
-}
 /* about css part end */
 
 /* service css part start */
-.service_head {
+.teamHeading {
     padding: 50px 0;
     font-size: 32px;
     font-weight: bold;
     color: #010101;
 }
-.service_con {
+.teamContant {
     background: #f1f1f1;
     padding: 15px; 
     position: relative;   
 }
-.service_con h3 {
-    padding-top: 30px;
+.teamContant h3 {
+    margin-top: 30px;
 }
-.service_icon_circle_1 {
+.teamImg{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+.teamImage_circle_1 {
     background: #fff;
     width: 80px;
     height: 80px;
@@ -141,7 +153,7 @@ a {
    transform: translateX(-50%);
 
 }
-.service_icon_circle_2 {
+.teamImage_circle_2 {
     background: #fff;
     width: 73px;
     height: 73px;
@@ -151,7 +163,7 @@ a {
     border-radius: 50%;
     border: 2px solid #f1f1f1;
 }
-.service_icon_circle_3 {
+.teamImage_circle_3 {
     background: #f1f1f1;
     width: 64px;
     height: 64px;
@@ -160,17 +172,22 @@ a {
     align-items: center;
     border-radius: 50%;    
 }
-.service_con:hover .service_icon_circle_2 {
+.teamContant:hover .teamImage_circle_2 {
     background: #28A8EA;
 }
-.service_con:hover .service_icon_circle_3 {
+.teamContant:hover .teamImage_circle_3 {
     background:#28A8EA;
     border: 2px solid #fff;
 }
-.service_con:hover {
+.teamContant:hover {
     box-shadow: -1px 1px 10px 4px rgba(0,0,0,0.57);
     -webkit-box-shadow: -1px 1px 10px 4px rgba(0,0,0,0.57);
     -moz-box-shadow: -1px 1px 10px 4px rgba(0,0,0,0.57);
+}
+.teamContant:hover .nameText{
+color: #28A8EA;
+text-decoration:underline;
+/* background: #01310d; */
 }
 /* service css part end */
 
