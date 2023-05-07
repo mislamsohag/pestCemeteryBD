@@ -19,33 +19,9 @@ a {
 
 /* Common CSS PartEnd  */
 
-.header_part {
-    background: #28A8EA;
-    padding: 10px 0;    
-}
-
-.social_icon {
-    display: flex;
-    justify-content: end;
-}
-.social_icon img {
-    margin-left: 20px;
-}
-/* Header Part css End */
-
-/* Navbar Part css Start */
-.navbar-nav > .active a{
-    color: #28A8EA ;
-}
-.nav_hover ul li a {
-    color: #000;
-}
-.nav_hover ul li:hover a {    
-    color: #28A8EA;    
-}
-
+/* Slider Part Start */
 .slider_part {
-    background-image: url(../image/bg.jpg);
+    background-image: url(/Pages/About/assets/image/silderImage.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;    
@@ -54,63 +30,32 @@ a {
     background-color: rgb(0, 0, 0, 0.6);
     padding: 100px;
 }
-.slider_con {
+.slider_container {
    text-align: right;
     color: #fff;
 }
 
-.button {
-    margin-top: 20px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.hire_btn {    
-    display: flex;
-    text-align: center;
-    align-items: center;
-    height: 30px;
-    width: 100px;
+.hero_btn {      
+    padding: 10px;
     background-color: #28A8EA;
     cursor: pointer;
-    margin: 0 15px;
+    margin: 0 10px;
+    border-radius: 5%;
 }
-.hire_btn a {
+.hero_btn a {
     color: #fff;
     text-decoration: none;    
 }
-.hire_btn:hover {
+.hero_btn:hover {
     border: 1px solid #fff;
-    background-color:transparent;   
+    background-color:transparent;       
 }
-.hire_btn:hover a {
-    color: #fff;
+.hero_btn:hover a {
+    color: #fa058c;
 }
-
-.contact_btn {
-    text-align: center;
-    height: 30px;
-    width: 100px;
-    background-color: #28A8EA;
-    cursor: pointer;    
-}
-.contact_btn a {
-    color: #fff;
-    text-decoration: none;    
-}
-.contact_btn:hover {
-    border: 1px solid #fff;
-    background-color:transparent;   
-}
-.contact_btn:hover a {
-    color: #fff;
-}
-/* slider part css end */
+/* slider part end */
 
 /* about css part start */
-/* .about_part {
-    padding-top: 60px;
-} */
 .about_head {
     /* padding-bottom: 50px; */
     font-size: 32px;
@@ -120,7 +65,7 @@ a {
 /* about css part end */
 
 /* service css part start */
-.teamHeading {
+/* .teamHeading {
     padding: 50px 0;
     font-size: 32px;
     font-weight: bold;
@@ -188,16 +133,100 @@ a {
 color: #28A8EA;
 text-decoration:underline;
 /* background: #01310d; */
+
+*/
+
+/* Team Member Part Start */
+.team_part {
+    padding: 40px 0;
 }
-/* service css part end */
+.team_head {
+    padding-bottom: 30px;
+}
+.team_img {
+    position: relative;
+    transition: 0.3s;
+}
+.team_img:hover {
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+}
+.team_con:hover .team_con_inner h4 {
+    color: #5bc5f3;
+}
+.team_img:hover .team_overlay {
+    opacity: 1;
+    width: 30%;
+}
+.team_overlay {
+    height: 100%;
+    width: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+ul {
+    padding: 0;
+}
+.icon_main ul li {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.icon_main ul li:hover {
+    background: #5bc5f3;
+    border: 1px solid #5bc5f3;
+}
+.icon_main ul li a {
+    font-size: 20px;
+    color: #fff;
+}
+/* team Part End */
+
+
+/* trastiBoard Part STart */
+.trasti_part {
+    padding: 50px 0;
+}
+.trasti_img {
+    display: flex;
+    justify-content: center;
+}
+
+.trasti_img {
+    margin-bottom: 45px;
+}
+.trasti_con_inner {
+    background: #f1f1f1;
+    padding: 20px;
+    position: relative;
+}
+.trasti_icon {
+    color: #5bc5f3;
+}
+.trasti_box {
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
+/* trastiBoard Part End */
 
 /* foote part */
-.footer_part {
-    padding-top: 10px;
-}
-.footer_contain{   
-    background: #000;
-    color: #fff;
-    padding: 30px;
-    text-align: center;
-}
