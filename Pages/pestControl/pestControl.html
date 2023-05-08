@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    
+  
+<head>    
     <link rel="icon" type="image/x-icon" href="/assests/logos/Pest_Cemetery_BD_Logo-Fevicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
     <link rel="stylesheet" href="/assests/css/home.css">
-    <link rel="stylesheet" href="../css_pages/service.css">
-    <link rel="stylesheet" href="../css_pages/responsive_service.css">
+    <link rel="stylesheet" href="../css_pages/pestControl.css">
+    <link rel="stylesheet" href="../css_pages/responsive_pestControl.css">
   
 </head>
 
@@ -57,11 +57,11 @@
                           Our Services
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/Pages/Services/services.html">Service-1</a></li>
+                          <li><a class="dropdown-item" href="/Pages/pestControl/pestControl.html">Pest Control</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Car Fumigation</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Soil Treatment</a></li>
                         </ul>
                       </li>
                       <li class="nav-item">
@@ -76,94 +76,90 @@
               </nav>
     <!-- Nav Bar -->
 <!-- Common Section -->
-    
-<!-- Slider Section start-->
-        <div class="slider_part">
-            <div class="slider_overlay">
-                <div class="container">
-                    <div class="slider_con_main">
-                        <div class="row">
-                            <div class="col-xl-6 offset-xl-6">
-                                <div class="slider_con">
-                                    <h3>Hi, We Are</h3>
-                                    <h1>Creative Designer</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas libero voluptatum vero animi nulla iste magni, corrupti mollitia quia cupiditate?</p>
-                                    <div class="slider_btn_main">
-                                        <div class="slider_btn">
-                                            <a href="#">Hire US</a>
-                                        </div>
-                                        <div class="slider_btn">
-                                            <a href="#">Contact Us</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+<!-- Slider Section Start -->
+<header class="">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active p-3">
+      <div class="row d-flex align-items-center">
+
+        <div class="col-lg-6">
+            <div class="headerContant">
+                <h2 class="text-center">Why We?</h2>
+                <ul class="hroList">
+                    <li><i class="bi bi-check2-square"></i> We use Smell Free Chemicla</li>
+                    <li><i class="bi bi-check2-square"></i> Use Latest Technology</li>
+                    <li><i class="bi bi-check2-square"></i> Killing Masquito Without Smoke</li>
+                    <li><i class="bi bi-check2-square"></i> Three Step Mosquito Control System
+                        <ul class="hroList">
+                            <li><i class="bi bi-check2-circle"></i> Batting</li>
+                            <li><i class="bi bi-check2-circle"></i> Water Based</li>
+                            <li><i class="bi bi-check2-circle"></i> Fogging</li>
+                        </ul>
+                    </li>
+                    <li><i class="bi bi-check2-square"></i> Our Experts are Trained from Singapure & Malaysia</li>
+                </ul>
+                <div class="preeBook-btn">
+                    <a href="/Pages/Contact/contact.html">Preebook
+                        now <i class="bi bi-arrow-right-short"></i></a>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Slider Part End -->
+        <div class="col-lg-6">           
+        <div class="headerImg">
+            <img src="/assests/images/silderImage.png">
+        </div>
+    </div>
+      </div>
+    </div>
+    <div class="carousel-item bg-info rounded p-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <h1>Pest Contro Service</h1>
+          <p>Mosquito, Cockroach, Mouse-Rat, Bedbug, Fly, Termite (Batting system), Ants & Lizard control.</p>
+          <h1 class="text-danger">$420</h1>
+          <button class="btn btn-danger">Buy Now</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="/assests/images/silderImage.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item p-3">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6">
+          <h1>Virus Control and Soil Treatment</h1>
+          <p>Harmful Virus/Bacteria Control of Aquarium & Swimming Pool, Car Fumigation and Soil Treatment.
+        </p>
+          <h1 class="text-danger">$420</h1>
+          <button class="btn btn-danger">Order Now</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="/assests/images/silderImage.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</header>
+<!-- silder Section End -->
     
     
     <!-- About Part Start -->
 
    
-    <!-- About Part End -->
-
-    <!-- Service Part Start -->
-    <section class="service_part">
-        <div class="container">
-            <div class="about_head ser text-center">
-                <h3>Our Service</h3>
-            </div>
-            <div class="service_con_main">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="service_con">
-                            <h4 class="text-center">Graphic Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequatur eos nostrum sit, voluptatum necessitatibus.</p>
-                            <div class="service_img_circle_01">
-                                <div class="service_img_circle_02">
-                                    <div class="service_img_circle_03">
-                                        <img src="assets/img/icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="service_con">
-                            <h4 class="text-center">Graphic Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequatur eos nostrum sit, voluptatum necessitatibus.</p>
-                            <div class="service_img_circle_01">
-                                <div class="service_img_circle_02">
-                                    <div class="service_img_circle_03">
-                                        <img src="assets/img/icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="service_con">
-                            <h4 class="text-center">Graphic Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequatur eos nostrum sit, voluptatum necessitatibus.</p>
-                            <div class="service_img_circle_01">
-                                <div class="service_img_circle_02">
-                                    <div class="service_img_circle_03">
-                                        <img src="assets/img/icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service Part End -->
+    <!-- About Part End -->    
 
     <!-- Our Portfolio Part Start -->
     <section class="portfolio_part">

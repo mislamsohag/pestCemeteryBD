@@ -105,64 +105,7 @@
 /* About Part End */
 
 
-/* Service part Start */
-.about_head.ser {
-    padding-bottom: 60px;
-}
-.service_con {
-    background: #f1f1f1;
-    padding: 20px;
-    position: relative;
-}
-.service_con:hover {
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
-}
-.service_con:hover .service_img_circle_02 {
-    background: #5bc5f3;
-}
-.service_con:hover .service_img_circle_03 {
-    background: #5bc5f3;
-    border: 1px solid #fff;
-}
-.service_con h4 {
-    padding-top: 25px;
-}
-.service_img_circle_01 {
-    height: 80px;
-    width: 80px;
-    background: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -25%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.service_img_circle_02 {
-    height: 75px;
-    width: 75px;
-    /* background: #000; */
-    border:2px solid #f1f1f1;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.service_img_circle_03 {
-    height: 68px;
-    width: 68px;
-    background: #f1f1f1;
-    /* border:2px solid #fff; */
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* Service part End */
+
 
 /* Portfolio Part Start */
 .portfolio_part {
