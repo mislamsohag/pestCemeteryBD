@@ -22,8 +22,11 @@ body {
 
 /* Header CSS Start */
 .header {
-    background-color: #5C0100;
+    background-color: red;
     color: white;
+    /* position: -webkit-sticky; */
+    position: sticky;    
+    top: 90px;
 }
 .nav_info {
     padding-top: 10px;
@@ -61,7 +64,7 @@ body {
 
 /* Bootstarp Adit Start */
 .navbar{
-    background:hsla(60, 79%, 68%, 0.199) !important; 
+    background:hsla(62, 100%, 50%, 0.424) !important; 
 }
 .nav-link{
     padding: 0.5 rem;    
@@ -147,6 +150,7 @@ body {
         order: 2;
     }  
 }
+
 .hroList{
     list-style: none;
 
@@ -340,21 +344,80 @@ body {
 .footerPart p {
     margin: 10px 0;
 }
+
+/* Footer Part End */
+
+/* Contact Part Start */
+.contact_part {
+    padding: 1.5rem 0;
+    background: #353535;
+}
+.contact_con {
+    color: #fff;
+}
+.contact_icon {
+    height: 35px;
+    width: 35px;
+    background: #5bc5f3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_con_inner ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+    transition: 0.3s;
+}
+.contact_con_inner ul li a:hover {
+    color: #5bc5f3;
+}
+.contact_con_inner ul:nth-child(2){
+    margin-left: 25px;
+}
+.social-link{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .social-link a {
     text-decoration: none;
     color: #fff;
     margin:0 10px;
 }
-.social-link a:hover .fa-facebook {
+.social-link a:hover .bi-facebook {
     color: #097DEB;
 }
-.social-link a:hover .fa-instagram {
+.social-link a:hover .bi-instagram {
     color: #D14783;
 }
-.social-link a:hover .fa-twitter {
+.social-link a:hover .bi-twitter {
     color: #5DA9DD;
 }
-.social-link a:hover .fa-youtube {
+.social-link a:hover .bi-youtube {
     color: #FE0000;
 }
-/* Footer Part End */
+.social-link a:hover .bi-linkedin {
+    color: #0A66C2;
+}
+/* Contact Part End */
+
+/* Footer Part Start */
+.footer_part {
+    padding: 15px 0;
+    background: #555;
+    border-top: 1px solid #fff;
+}
+p {
+    margin: 0;
+}
+.footer_con p {
+    color: #fff;
+}
+.footer_con p a {
+    text-decoration: none;
+    color: #5bc5f3;
+}
+/* Footer Part ENd */

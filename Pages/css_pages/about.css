@@ -160,6 +160,7 @@ ul {
     background: #f1f1f1;
     padding: 20px;
     position: relative;
+    margin-bottom: 3.5rem;
 }
 .service_con:hover {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
@@ -211,4 +212,17 @@ ul {
 }
 /* Service part End */
 
+/* clients part start */
+.client_img{
+    border-radius: 50%;
+}
+/* clients part start */
+
+/* foote part */
+.footerPart{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;    
+}
 /* foote part */
