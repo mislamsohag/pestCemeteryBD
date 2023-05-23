@@ -279,7 +279,7 @@ ul {
 /* Footer Part Start */
 .footer_part {
     padding: 15px 0;
-    background: #555;
+    background: #FE0000;
     border-top: 1px solid #fff;
 }
 p {
@@ -290,6 +290,7 @@ p {
 }
 .footer_con p a {
     text-decoration: none;
-    color: #5bc5f3;
+    color: #1404fc;
+    font-weight: bold;
 }
 /* Footer Part ENd */

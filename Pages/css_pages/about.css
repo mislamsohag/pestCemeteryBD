@@ -168,10 +168,10 @@ ul {
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
 .service_con:hover .service_img_circle_02 {
-    background: #5bc5f3;
+    background: #FF0000;
 }
 .service_con:hover .service_img_circle_03 {
-    background: #5bc5f3;
+    background: #28ACE2;
     border: 1px solid #fff;
 }
 .service_con h4 {
@@ -218,11 +218,21 @@ ul {
 }
 /* clients part start */
 
-/* foote part */
-.footerPart{
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;    
+/* Footer Part Start */
+.footer_part {
+    padding: 15px 0;
+    background: #FE0000;
+    border-top: 1px solid #fff;
 }
-/* foote part */
+p {
+    margin: 0;
+}
+.footer_con p {
+    color: #fff;
+}
+.footer_con p a {
+    text-decoration: none;
+    color: #1404fc;
+    font-weight: bold;
+}
+/* Footer Part ENd */
