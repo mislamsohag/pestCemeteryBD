@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+
+
+/* contact information Part Start */
+
+.contact-info {
+   /* margin: 20px; */
+    padding-left: 20px;
+    box-shadow: 10px 10px 15px gray;
+}
+#contact-1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#contact-2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+/* contact information Part End */
+
+/* Footer Start */
+
+
+/* Footer End */
