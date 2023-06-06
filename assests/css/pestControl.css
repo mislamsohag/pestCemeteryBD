@@ -107,11 +107,11 @@
 
 
 
-/* Portfolio Part Start */
-.portfolio_part {
+/* profile Part Start */
+.profile_part {
     padding: 40px 0;
 }
-.portfolio_part .portfolio_head {
+.profile_part .profile_head {
     padding-bottom: 30px;
 }
 .port_img {
@@ -148,7 +148,7 @@
     font-size: 20px;
     color: #fff;
 }
-/* Portfolio Part End */
+/* profile Part End */
 
 /* Teacher Part Start */
 .teachers_part {

@@ -105,7 +105,9 @@
 /* About Part End */
 
 
-
+.textAlign{
+    text-align: justify;
+}
 
 
 /* Contact Part Start */

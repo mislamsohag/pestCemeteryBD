@@ -12,7 +12,7 @@ h1 {
 
 .contact-info {
    /* margin: 20px; */
-    padding-left: 20px;
+    padding: 20px;
     box-shadow: 10px 10px 15px gray;
 }
 #contact-1 {
@@ -26,6 +26,177 @@ h1 {
     border-image-slice: 1;
 }
 /* contact information Part End */
+
+
+/* Flow Chat */
+h1 {
+    width:580px; 
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:18px;
+    text-align:center;
+    margin:40px auto;
+ }
+#container {
+    width:580px; 
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:11px;
+    text-align:center;
+    margin:auto;
+ }  
+#container a {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    background-color:#f6f6ff;
+ }
+#container a:hover {
+    color:#900;
+    background-color:#f6f6ff;
+ }
+#no1, #no2 {
+    width:200px;    
+    border:1px solid #000;
+    margin:auto;
+ }
+#no1 a, #no2 a {
+    padding: 15px 0;
+ }
+
+#line1, #line2 {
+    font-size:0;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+ } 
+#line3 {
+    font-size:0;
+    width:460px;
+    height:1px;
+    color:#fff;
+    background-color:#000;    
+    margin:auto;
+ } 
+#line4 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:60px;
+    float:left;
+ }  
+#line5,#line6,#line7 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:115px;
+    float:left;
+ }
+#line8 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:110px;
+    float:left;
+ }
+#no3 {
+    display:inline;
+    width: 115px;
+    border:1px solid #000;
+    clear:both;
+    margin-left:0px;
+    float:left;
+ }
+#no3 a,#no5 a,#no9 a {
+    /* padding: 10px 0; */    
+    height:50px;
+    /* padding-top:8px;  */
+ }  
+#no4,#no5,#no6,#no7 {
+    display:inline;
+    border:1px solid #000;
+    margin-left:5px;
+    float:left;
+    width: 110px;
+ }
+#no4 a,#no6 a,#no7 a,#no8 a,#no9 a,#no11 a {
+    /* width:94px;  */
+    height:50px;
+    /* padding-top:16px;   */
+ } 
+
+ #line9 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:65px;
+    float:left;
+ } 
+#line10,#line12,#line13 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:110px;
+    float:left;
+ } 
+ 
+ #line11 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:115px;
+    float:left;
+ } 
+ #line14 {
+    font-size:0;
+    width:450px;
+    height:1px;
+    color:#fff;
+    background-color:#000;    
+    margin:auto;
+ } 
+ #no8 {
+    width:100px;    
+    border:1px solid #000;
+    margin:auto;
+ }
+#no8 a {
+    padding: 10px 0;
+ }
+ #line15 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:20px;
+    color:#fff;
+    background-color:#000;
+    margin-left:292px;
+    float:left;
+ }
+
+.clear {
+    clear:both;
+ }                  
+
+/* Flow Chat */
 
 /* Footer Start */
 

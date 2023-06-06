@@ -57,6 +57,10 @@
     font-weight: bold;
     color: #010101;
 }
+
+.about_head{
+    padding-bottom: 3rem;
+}
 /* about css part end */
 
 /* Team Member Part Start */
@@ -153,9 +157,7 @@ ul {
 /* trastiBoard Part End */
 
 /* Service part Start */
-.about_head{
-    padding-bottom: 3rem;
-}
+
 .service_con {
     background: #f1f1f1;
     padding: 20px;
