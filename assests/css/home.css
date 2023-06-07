@@ -46,7 +46,7 @@ body {
 
 /* Bootstarp Edit Start */
 .navbar{
-    background:hsla(62, 100%, 50%, 0.424) !important; 
+    background:rgb(246, 246, 132) !important; 
 }
 .nav-link{
     padding: 0.5 rem;    
