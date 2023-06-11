@@ -2,7 +2,10 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;    
 }
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@500&family=Source+Sans+Pro&display=swap');
 
@@ -144,6 +147,7 @@ body {
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);    
 }
+
 @media (max-width:600px) {
     .products {
         grid-template-columns: 1fr;
@@ -163,6 +167,10 @@ body {
     .products {
         grid-template-columns:1fr 1fr 1fr;
     }    
+}
+.product a {
+    text-decoration: none;
+    color: #000;   
 }
 .product {
     padding: 10px;

@@ -1,0 +1,59 @@
+
+/* Common CSS Part Start */
+
+* {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Common CSS PartEnd  */
+
+/* Slider Part Start */
+.slider_part {
+    background-image: url(/assests/images/silderImage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+.slider_overlay {
+    background-color: rgba(11, 0, 0, 0.6);
+    padding: 50px 0;
+}
+.slider_container {
+    padding: 20px ;    
+   text-align: right;
+    color: #fff;
+    background-color: rgba(251, 6, 6, 0.6);
+}
+
+.hero_btn {      
+    padding: 10px;
+    background-color: #28A8EA;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5%;
+}
+.hero_btn a {
+    color: #fff;
+    text-decoration: none;    
+}
+.hero_btn:hover {
+    border: 1px solid #fff;
+    background-color:transparent;       
+}
+.hero_btn:hover a {
+    color: #fff;
+}
+/* slider part end */
+
+
+/* about css part end */
+
+
+
