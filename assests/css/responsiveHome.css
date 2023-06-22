@@ -1,0 +1,118 @@
+@media (min-width: 1200px)  { 
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .slider_con p {
+       margin-left: 400px;
+       padding: 15px 0;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+   .about_con p span {
+       display: none;
+   }
+   /* .service_con {
+       margin-bottom: 50px;
+   } */
+   .icon_main ul li {
+       height: 35px;
+       width: 35px;
+       margin: 8px 0;
+   }
+   .icon_main ul li a {
+       font-size: 14px;
+   }
+   .teacher_con_inner h4 {
+       font-size: 20px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .slider_con p {
+       margin-left: 0;
+   }
+   .slider_con {
+       text-align: center;
+   }
+   .slider_btn_main {
+       justify-content: center;
+   }
+   .about_con {
+       padding-top: 0;
+   }
+   .about_con span {
+       display: none;
+   }
+   .service_con {
+       margin-bottom: 50px;
+   }
+   .pp {
+       margin-top: 15px;
+   }
+   .sm_p {
+       margin-top: 25px;
+   }
+   .sm_m {
+       margin-top: 15px;
+   }
+}
+
+@media (max-width: 575.98px) { 
+   .header_contact_icon {
+       justify-content: center;
+   }
+   .header_contact_icon ul li a {
+       padding: 5px 12px 0;
+   }
+   
+   .slider_con {
+       text-align: center;
+   }
+   .slider_btn_main {
+       justify-content: center;
+   }
+   .sm_center {
+       text-align: center;
+   }
+   .about_con {
+       text-align: justify;
+       padding: 15px 0 30px;
+   }
+   .service_con {
+       margin-top: 50px;
+       text-align: center;
+   }
+   .ppp {
+       margin-top: 15px;
+   }
+   .xsm_p {
+       margin-top: 15px;
+   }
+   .sm_m {
+       margin-top: 15px;
+   }
+   .contact_con {
+       text-align: center;
+   }
+   .contact_icon {
+       justify-content: center;
+   }
+   .col_Jus {
+       display: flex;
+       justify-content: center;
+   }
+   .contact_con_head {
+       padding-top: 30px;
+   }
+   .contact_con_inner {
+       display: flex;
+       justify-content: center;
+   }
+}
+
+
+
+
