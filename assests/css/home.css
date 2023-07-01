@@ -101,8 +101,6 @@ body {
 .header {
     background-color: red;
     color: white;    
-    position: sticky;    
-    top: 5.2rem;
 }
 
 .header-contact { 
@@ -129,35 +127,48 @@ body {
     text-align: center;
     margin: 20px 0;
 }
+
+/* Products Section CSS Start */
 .products {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);    
 }
-
 .product a {
     text-decoration: none;
     color: #000;   
 }
 .product {
-    padding: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 1px 2px 15px 0px rgba(252, 1, 1, 0.15);
     border-radius: 10px;
 }
 .product img {
     width: 100%;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
-.product p {
-    margin: 5px 0;
-    font-weight: 600;
+.productContent {
+    padding: 0 10px;
+    margin-bottom: 10px;
 }
-.product>h3 {
+.productContent a, .socialBtn a{
+    display: inline-block;
+    margin-left: 5px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#F80307;
+    color:#fff;
+    text-decoration: none;
+}
+.productContent a:hover, .socialBtn a:hover{    
+    border: 1px solid;   
+    background-color:transparent;
+    color:#F80307;
+}
+.productContent h3 {
     font-size: 1.5rem;
-}
-.price {
-    font-weight: 600;    
+    margin: 10px 0;
 }
 .rating {
     display: flex;
@@ -182,76 +193,27 @@ body {
 }
 .seeMore a {
     color: #E22E6D ;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
-/* Product Part End */
+/* Products Section CSS End */
 
-/* Featurs Part Start */
+/* Social Part Start */
+.socialActivity {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
 .socialContent h1 {
     font-size: 35px;
+}
+.socialContent{
+    padding: 10px;
+}
+.socialContent p{
     margin: 20px 0;
 }
-.featurePart {
-    display: grid;
-    grid-gap: 100px;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;    
-}
-@media (max-width:600px) {
-    .featurePart {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        text-align: center;
-    }
-    .socialContent {
-        order: 1;
-    }
-    .socialVideo {
-        order: 2;
-    }
-}
-@media (min-width: 600px) {
-    .featurePart {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        text-align: center;
-    }
-    .socialContent {
-        order: 1;
-    }
-    .socialVideo {
-        order: 2;
-    }
-}
-@media (min-width: 768px) {
-    .featurePart {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        text-align: center;
-    }
-    .socialContent {
-        order: 1;
-    }
-    .socialVideo {
-        order: 2;
-    }
-}
-@media (min-width: 992px) {
-    .featurePart {
-        grid-template-columns:1fr 1fr;
-        grid-gap: 20px;
-        text-align: left;
-    }
-    .socialContent {
-        order: 2;
-    }
-    .socialVideo {
-        order: 1;
-    }
-}
+/* Social Activity Part Start */
 
-/* Featurs Part Start */
 /* Footer Part Start */
 .footerPart {
     background-color: #0A0826;
@@ -265,7 +227,6 @@ body {
 .footerPart p {
     margin: 10px 0;
 }
-
 /* Footer Part End */
 
 /* Contact Part Start */

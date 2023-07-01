@@ -3,7 +3,14 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .products {
         grid-template-columns:1fr 1fr 1fr;
-        }
+    }
+
+    .socialContent {
+        order: 2;
+    }
+    .socialVideo {
+        order: 1;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -13,27 +20,52 @@
    .navLogoConten p{
     font-size: 18px;
    }
+
    .products {
     grid-template-columns:1fr 1fr;
     }
+
+    .socialActivity {
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+        text-align: left;
+    }
+    .socialContent {
+        order: 2;
+    }
+    .socialVideo {
+        order: 1;
+    }    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {     
     .navLogoConten h2{
-    font-size: 25px;
+        font-size: 25px;
     }
     .navLogoConten p{
-    font-size: 16px;
-    }  
+        font-size: 16px;
+    } 
+
     .products {
-    grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .socialActivity {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .socialContent {
+        text-align: center;
+        order: 1;
+    }
+    .socialVideo {
+        order: 2;
     }
 }
 
 @media (max-width: 575.98px) { 
    .nav_logo{
         width: 70px;
-        /* height: 70px; */
     }
     .navLogoConten h2{
         font-size: 24px;
@@ -41,6 +73,7 @@
     .navLogoConten p{
         font-size: 14px;
     }
+
     .preeBook-btn {
         border: none;        
         background-color: #E22E6D;
@@ -53,12 +86,21 @@
         align-items: center;       
         font-size: .7rem;   
     }
-       .products {
+
+    .products {
         grid-template-columns: 1fr;
-    } 
+    }
+
+    .socialActivity {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .socialContent {
+        text-align: center;
+        order: 1;
+    }
+    .socialVideo {
+        order: 2;
+    }
 }
-
-
-
-
 
