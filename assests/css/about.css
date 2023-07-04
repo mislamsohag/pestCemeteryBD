@@ -123,44 +123,7 @@ ul {
 }
 /* team Part End */
 
-
-/* trastiBoard Part STart */
-.trasti_part {
-    padding: 1rem 0;
-}
-.trasti_img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;    
-}
-
-.trasti_img_round{
-    border-radius: 50%;
-}
-
-
-.trasti_con_inner {
-    background: #f1f1f1;
-    padding: 20px;
-    position: relative;
-}
-.trasti_icon {
-    color: #5bc5f3;
-}
-.trasti_box {
-    height: 50px;
-    width: 50px;
-    background: #f1f1f1;
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    z-index: -1;
-}
-/* trastiBoard Part End */
-
-/* Service part Start */
-
+/* clients part start */
 .service_con {
     background: #f1f1f1;
     padding: 20px;
@@ -198,7 +161,6 @@ ul {
 .service_img_circle_02 {
     height: 75px;
     width: 75px;
-    /* background: #000; */
     border:2px solid #f1f1f1;
     border-radius: 50%;
     display: flex;
@@ -209,35 +171,13 @@ ul {
     height: 68px;
     width: 68px;
     background: #f1f1f1;
-    /* border:2px solid #fff; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* Service part End */
-
-/* clients part start */
 .client_img{
     border-radius: 50%;
 }
 /* clients part start */
 
-/* Footer Part Start */
-.footer_part {
-    padding: 15px 0;
-    background: #FE0000;
-    border-top: 1px solid #fff;
-}
-p {
-    margin: 0;
-}
-.footer_con p {
-    color: #fff;
-}
-.footer_con p a {
-    text-decoration: none;
-    color: #1404fc;
-    font-weight: bold;
-}
-/* Footer Part ENd */

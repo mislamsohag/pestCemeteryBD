@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;600&display=swap');
 
-/* FOnt Link */
+/* Common CSS Part Start */
 
-
-/* Common CSS Start*/
 * {
+    text-align: justify;
     margin: 0;
     padding: 0;
     outline: 0;
@@ -13,284 +11,49 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-/* Common CSS End*/
 
-.header_contact_icon {
-    display: flex;
-    justify-content: flex-end;
-}
-.header_contact {
-    background: #0771b9;
-}
-.header_contact_icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.header_contact_icon ul {
-    display: flex;
-    align-items: center;
-}
-.header_contact_icon ul li a {
-    color: #fff;
-    padding-left:25px ;
-    display: inline-block;
-}
+/* Common CSS PartEnd  */
+
+/* Slider Part Start */
 .slider_part {
-    background: url(../img/bg.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(/assests/images/silderImage.png);
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;    
 }
 .slider_overlay {
-    padding: 90px 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-.slider_con {
-    text-align: right;
-}
-.slider_con h3 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    color: #fff;
-    font-weight: normal;
-}
-.slider_con h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.slider_con p {
-    font-size: 13px;
-    color: #fff;
-}
-.slider_btn {
-    height: 50px;
-    width: 115px;
-    border: 1px solid #0771b9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-    background: #0771b9;
-    transition: 0.3s;
-
-}
-.slider_btn:hover {
-    background: transparent;
-    border-color: #fff;
-}
-.slider_btn a {
-    color: #fff;
-    text-decoration: none;
-}
-.slider_btn_main {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Header Part End */
-
-
-
-
-/* About Part Start */
-.about_part {
-    padding: 60px 0;
-}
-.about_con {
-    padding-top: 40px;
-}
-/* About Part End */
-
-
-
-
-/* profile Part Start */
-.profile_part {
-    padding: 40px 0;
-}
-.profile_part .profile_head {
-    padding-bottom: 30px;
-}
-.port_img {
-    position: relative;
-}
-.port_img:hover .port_overlay {
-    opacity: 1;
-    height: 100%;
-    /* width: 100%; */
-}
-.port_overlay {
-    height: 0;
-    width: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.3s;
-}
-.port_overlay .icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background: #5bc5f3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.port_overlay .icon a {
-    font-size: 20px;
-    color: #fff;
-}
-/* profile Part End */
-
-/* Teacher Part Start */
-.teachers_part {
-    padding: 40px 0;
-}
-.teachers_head {
-    padding-bottom: 30px;
-}
-.teachers_img {
-    position: relative;
-    transition: 0.3s;
-}
-.teachers_img:hover {
-    -webkit-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
-}
-.teachers_con:hover .teacher_con_inner h4 {
-    color: #5bc5f3;
-}
-.teachers_img:hover .teachers_overlay {
-    opacity: 1;
-    width: 30%;
-}
-.teachers_overlay {
-    height: 100%;
-    width: 0;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
-    transition: 0.3s;
-}
-ul {
-    padding: 0;
-}
-.icon_main ul li {
-    height: 50px;
-    width: 50px;
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0;
-}
-.icon_main ul li:hover {
-    background: #5bc5f3;
-    border: 1px solid #5bc5f3;
-}
-.icon_main ul li a {
-    font-size: 20px;
-    color: #fff;
-}
-/* Teacher Part End */
-
-
-/* Testimonial Part STart */
-.testi_part {
+    background-color: rgba(11, 0, 0, 0.6);
     padding: 50px 0;
 }
-.testi_img {
-    display: flex;
-    justify-content: center;
+.slider_container {
+    padding: 20px ;    
+   text-align: right;
+    color: #fff;
+    background-color: rgba(251, 6, 6, 0.6);
 }
 
-.testi_img {
-    margin-bottom: 45px;
+.hero_btn {      
+    padding: 10px;
+    background-color: #28A8EA;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5%;
 }
-.testi_con_inner {
-    background: #f1f1f1;
-    padding: 20px;
-    position: relative;
+.hero_btn a {
+    color: #fff;
+    text-decoration: none;    
 }
-.testi_icon {
-    color: #5bc5f3;
+.hero_btn:hover {
+    border: 1px solid #fff;
+    background-color:transparent;       
 }
-.testi_box {
-    height: 50px;
-    width: 50px;
-    background: #f1f1f1;
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    z-index: -1;
-}
-/* Testimonial Part End */
-
-
-/* Contact Part Start */
-.contact_part {
-    padding: 40px 0;
-    background: #353535;
-}
-.contact_con {
+.hero_btn:hover a {
     color: #fff;
 }
-.contact_icon {
-    height: 35px;
-    width: 35px;
-    background: #5bc5f3;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contact_con_inner ul li a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 0;
-    color: #fff;
-    transition: 0.3s;
-}
-.contact_con_inner ul li a:hover {
-    color: #5bc5f3;
-}
-.contact_con_inner ul:nth-child(2){
-    margin-left: 25px;
-}
-/* Contact Part End */
+/* slider part end */
 
-/* Footer Part Start */
-.footer_part {
-    padding: 15px 0;
-    background: #FE0000;
-    border-top: 1px solid #fff;
-}
-p {
-    margin: 0;
-}
-.footer_con p {
-    color: #fff;
-}
-.footer_con p a {
-    text-decoration: none;
-    color: #1404fc;
-    font-weight: bold;
-}
-/* Footer Part ENd */
+
+/* about css part end */
+
+
+
