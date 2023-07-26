@@ -15,6 +15,9 @@ h1 {
     padding: 20px;
     box-shadow: 10px 10px 15px gray;
 }
+.strickthrow{
+   text-decoration: line-through;
+}
 #contact-1 {
     border-left: 5px solid;
     border-image: linear-gradient(blue, cyan);
@@ -27,9 +30,13 @@ h1 {
 }
 /* contact information Part End */
 
+.organogrameImage{
+   margin-top: 2%;
+   width: 100%;
+}
 
 /* Flow Chat */
-h1 {
+/* h1 {
     width:580px; 
     font-family:verdana,arial,helvetica,sans-serif;
     font-size:18px;
@@ -115,25 +122,26 @@ h1 {
     clear:both;
     margin-left:0px;
     float:left;
- }
+ } */
 #no3 a,#no5 a,#no9 a {
     /* padding: 10px 0; */    
     height:50px;
     /* padding-top:8px;  */
  }  
-#no4,#no5,#no6,#no7 {
+/* #no4,#no5,#no6,#no7 {
     display:inline;
     border:1px solid #000;
     margin-left:5px;
     float:left;
     width: 110px;
- }
+ } */
+
 #no4 a,#no6 a,#no7 a,#no8 a,#no9 a,#no11 a {
     /* width:94px;  */
     height:50px;
     /* padding-top:16px;   */
  } 
-
+/*
  #line9 {
     font-size:0;
     display:inline;
@@ -190,11 +198,11 @@ h1 {
     background-color:#000;
     margin-left:292px;
     float:left;
- }
+ } */
 
-.clear {
+/* .clear {
     clear:both;
- }                  
+ }                   */
 
 /* Flow Chat */
 
