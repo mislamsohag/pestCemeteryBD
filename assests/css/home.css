@@ -89,16 +89,23 @@ a{
     font-size: 1.5vw;
 }
 .preeBook-btn {
+    margin-left: 30%;
     background-color: #E22E6D;
     border-radius: 20px;
-    padding: 5px 7px;
+    
 }
 .preeBook-btn a {
+   
     align-items: center;
     display: inline-block;
     text-decoration: none;
     color: #fff; 
-    font-size: 1rem;   
+    font-size: 1rem;  
+    padding: 5px 7px; 
+}
+.preeBook-btn a:hover{
+    background-color: red;
+    border-radius: 20px;
 }
 /* Slider CSS End */
 
@@ -114,12 +121,16 @@ a{
     margin-left: 20px;
     align-items: end;
 }
+.header-contact h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
 .header_info {
     padding-top: 10px;
     display: flex;
     justify-content: end;
     align-items:center;
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 /* Header CSS End */
 
@@ -156,6 +167,7 @@ a{
     padding: 0 10px;
     margin-bottom: 10px;
 }
+
 .productContent a, .socialBtn a{
     display: inline-block;
     margin-left: 5px;
@@ -208,16 +220,8 @@ a{
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
 }
-.socialContent h1 {
-    font-size: 35px;
-}
-.socialContent{
-    padding: 10px;
-}
-.socialContent p{
-    margin: 20px 0;
-}
-/* Social Activity Part Start */
+
+/* Social Activity Part End */
 
 /* Footer Part Start */
 .footerPart {
@@ -235,17 +239,19 @@ a{
 /* Footer Part End */
 
 /* Contact Part Start */
+.contact_con_main{
+    color: #fff;
+}
 .contact_part {
     padding: 1.5rem 0;
     background: #353535;
 }
-.contact_con {
-    text-decoration: underline;
-    color: #fff;
+.contact_con h4{
+    text-decoration: underline;    
 }
 .contact_icon {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     background: #F80307;
     border-radius: 50%;
     display: flex;
