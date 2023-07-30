@@ -46,6 +46,22 @@
         font-size: 14px;
     } 
 
+    .carousel-inner{
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-item h2{
+        font-size: 3.5vw;
+    }
+    .carousel-item p {
+        font-size: 2.5vw;
+    }
+    .carousel-item li {
+        font-size:2.5vw;
+    }
+
     .products {
         grid-template-columns: 1fr 1fr;
     }
@@ -68,12 +84,33 @@
         width: 70px;
     }
     .navLogoConten h2{
-        font-size: 24px;
+        font-size: 20px;
     }
     .navLogoConten p{
-        font-size: 14px;
+        font-size: 12px;
+        /* visibility: hidden; */
+    }
+
+    .carousel-inner{
+        height: 150px;
+        display: flex;
+        align-items: center;
     }
     
+    .carousel-item h2{
+        font-size: 3vw;
+    }
+    .carousel-item p {
+        font-size: 2vw;
+    }
+    .carousel-item li {
+        font-size:2vw;
+    }
+
+    .header_info{
+        display: flex;
+        flex-direction: column;
+    }
 
     .products {
         grid-template-columns: 1fr;

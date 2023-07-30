@@ -76,37 +76,16 @@ a{
 /* Navigation css Part End */
 
 /* Hero Part CSS Start */
+
 .silderList{
     list-style: none;
 }
-.carousel-item h2{
-    font-size: 3vw;
+.carousel-inner{
+    background-image: url(../images/slider-img/pest-control-slider-1.jpg);
+    background-size: cover;    
+    text-shadow: #fff;
 }
-.carousel-item p {
-    font-size: 1.5vw;
-}
-.carousel-item li {
-    font-size: 1.5vw;
-}
-.preeBook-btn {
-    margin-left: 30%;
-    background-color: #E22E6D;
-    border-radius: 20px;
-    
-}
-.preeBook-btn a {
-   
-    align-items: center;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff; 
-    font-size: 1rem;  
-    padding: 5px 7px; 
-}
-.preeBook-btn a:hover{
-    background-color: red;
-    border-radius: 20px;
-}
+
 /* Slider CSS End */
 
 /* Header CSS Start */
@@ -126,11 +105,10 @@ a{
     padding: 0;
 }
 .header_info {
-    padding-top: 10px;
+    padding: 5px 0;
     display: flex;
     justify-content: end;
     align-items:center;
-    /* font-size: 2vw; */
 }
 /* Header CSS End */
 
@@ -239,6 +217,9 @@ a{
 /* Footer Part End */
 
 /* Contact Part Start */
+.lineThrow{
+    text-decoration: line-through;
+}
 .contact_con_main{
     color: #fff;
 }

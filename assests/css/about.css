@@ -17,7 +17,7 @@
 
 /* Slider Part Start */
 .slider_part {
-    background-image: url(/assests/images/silderImage.png);
+    background-image: url(../images/slider-img/pest-control-slider-2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;    
@@ -30,7 +30,7 @@
     padding: 20px ;    
    text-align: right;
     color: #fff;
-    background-color: rgba(251, 6, 6, 0.6);
+    background-color: rgba(251, 6, 6, 0.401);
 }
 
 .hero_btn {      
