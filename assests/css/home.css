@@ -25,6 +25,7 @@ a{
 }
 /* Common CSS End */
 
+
 /* Navbar css Part Start */
 .nav_logo img {    
     width: 75px;
@@ -83,9 +84,15 @@ a{
 .carousel-inner{
     background-image: url(../images/slider-img/pest-control-slider-1.jpg);
     background-size: cover;    
-    text-shadow: #fff;
+    /* text-shadow: #fff; */
 }
 
+.carousel_content{
+    color: #000;
+    background-color: #ffffff9c;
+    border-radius: 5px;
+    margin: 20px 0;
+}
 /* Slider CSS End */
 
 /* Header CSS Start */
@@ -304,3 +311,143 @@ p {
     font-weight: bold;
 }
 /* Footer Part ENd */
+
+
+
+/* Rasponsive CSS Start*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .products {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    .socialContent {
+        order: 2;
+    }
+    .socialVideo {
+        order: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .navLogoConten h2{
+    font-size: 30px;
+   }
+   .navLogoConten p{
+    font-size: 14px;
+   }
+
+   .products {
+    grid-template-columns:1fr 1fr;
+    }
+
+    .socialActivity {
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+        text-align: left;
+    }
+    .socialContent {
+        order: 2;
+    }
+    .socialVideo {
+        order: 1;
+    }    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {     
+    .navLogoConten h2{
+        font-size: 25px;
+    }
+    .navLogoConten p{
+        font-size: 14px;
+    } 
+
+    .carousel-inner{
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-item h2{
+        font-size: 3.5vw;
+    }
+    .carousel-item p {
+        font-size: 2.5vw;
+    }
+    .carousel-item li {
+        font-size:2.5vw;
+    }
+
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .socialActivity {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .socialContent {
+        text-align: center;
+        order: 1;
+    }
+    .socialVideo {
+        order: 2;
+    }
+}
+@media (min-width: 256px) and (max-width: 575.98px)
+{ 
+   .nav_logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .navLogoConten h2{
+        font-size: 18px;
+    }
+    .navLogoConten p{
+        font-size: 10px;
+        /* visibility: hidden; */
+    }
+
+    .carousel-inner{
+        display: flex;
+        align-items: center;        
+    }
+    
+    .carousel_content{        
+        background-color: #ffffff9c;
+        border-radius: 5px;
+        margin: 20px 0;
+}
+
+    .carousel-item h2{
+       
+        font-size: 5vw;
+    }
+    .carousel-item p {
+        font-size: 4vw;
+    }
+    .carousel-item li {
+        font-size:4vw;
+    }
+
+    .header_info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .socialActivity {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .socialContent {
+        text-align: center;
+        order: 1;
+    }
+    .socialVideo {
+        order: 2;
+    }
+}
+/* Rasponsive CSS End */

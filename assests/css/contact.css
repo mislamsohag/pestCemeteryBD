@@ -12,7 +12,7 @@ h1 {
 
 .contact-info {
    /* margin: 20px; */
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 10px 10px 15px gray;
 }
 .strickthrow{
@@ -20,7 +20,7 @@ h1 {
 }
 #contact-1 {
     border-left: 5px solid;
-    border-image: linear-gradient(blue, cyan);
+    border-image: linear-gradient(rgb(255, 0, 0), rgb(242, 255, 0));
     border-image-slice: 1;
 }
 #contact-2 {
