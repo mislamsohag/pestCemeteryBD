@@ -124,22 +124,27 @@ ul {
 /* team Part End */
 
 /* clients part start */
-.service_con {
+.customer-card {
+    margin-top: 1rem;
+    height: 250px;
+    border: 1px solid #8483836f;
+    margin-bottom: 3.5rem;
     background: #f1f1f1;
     padding: 20px;
     position: relative;
-    margin-bottom: 3.5rem;
+    transition: .3s;
 }
-.service_con:hover {
+
+.customer-card:hover {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
-.service_con:hover .service_img_circle_02 {
+.customer-card:hover .service_img_circle_02 {
     background: #FF0000;
 }
-.service_con:hover .service_img_circle_03 {
-    background: #28ACE2;
+.customer-card:hover .service_img_circle_03 {
+    background: #fae5b6;
     border: 1px solid #fff;
 }
 .service_con h4 {
@@ -154,7 +159,7 @@ ul {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -25%;
+    top: -15%;
     left: 50%;
     transform: translateX(-50%);
 }
